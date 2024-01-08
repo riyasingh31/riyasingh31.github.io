@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riya Singh</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42e87b8add.js" crossorigin="anonymous"></script>
 </head>
 <body>
  <div id="header">
     <div class="container">
         <nav>
             <div>
-                <img src="Images/logo (1).jpg" class="logo">
+                <img src="Images/logoig.jpg" class="logo">
                 <ul>
                     <li>
                         <a href="#">Home</a>
@@ -20,7 +21,7 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Past Experiences</a>
+                        <a href="#">Projects</a>
                     </li>
                     <li>
                         <a href="#">Portfolio</a>
@@ -28,7 +29,9 @@
                     <li>
                         <a href="#">Contact</a>
                     </li>
+                
                 </ul>
+        
             </div>
         
         </nav>
@@ -40,31 +43,51 @@
 
  </div> 
  
+
  <div id="about">
     <div class="container">
-       <nav> <div id="row">
+       <div id="row">
             <div class="about-col-1">
                 <img src="images/user.png">
             </div>
-            <div class="about-col-1">
+            <div class="about-col-2">
               <h1 class="sub-title">About Me</h1>
                 <p>I'm a sophomore at Chandigarh University, learning engineering as a skill. Besides academics, my active participation in college activities has equipped me with exceptional organizational and management skills. 
                     I'm a highly-skilled, enthusiastic, self-motivated writer. I'm articulate in Article Writing, Website Content Writing, Book Reviews, Blog Writing, newsletters, Product Description, News Writing, and Advertising. 
                     Through academics and personal projects I’ve honed my python skills, including proficiency in problem solving, libraries and frameworks. During my project I’ve gained a comprehensive knowledge of Pandas, NumPy, Matplotlib, Tensorflow, OpenCV-python, Argparse, Keras. 
                 
                 </p>
-                <div class="tab-titles"></div>
-                <p class="tab-links active-link">Technical Skills</p>
-                <p class="tab-links">Experiences</p>
-                <p class="tab-links">Education</p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="skills">
                 <ul>
                     <li>
-                       <span>Languages</span><br>Java, Python, C/C++, SQL, JavaScript, HTML/CSS
+                       <span>Languages</span> <br>Java, Python, C/C++,<br> SQL, JavaScript,<br> HTML/CSS
                     </li>
                     <li>
-                        <span>libraries</span><br>Pandas, NumPy, Matplotlib, Tensorflow,<br> OpenCV-python, Argparse, Keras
+                        <span>Libraries</span> <br>Pandas, NumPy,<br> Matplotlib, Tensorflow,<br> OpenCV-python, Keras
+                     </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experiences">
+                <ul>
+                    <li>
+                       <span>Subject Matter Expert</span> <br>Scorium Learning<br> Brainly.com<br>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>
+                       <span>Chandigarh University</span> <br>(Aug. 2022 – Present)<br>
+                    </li>
+                    <li>
+                        <span>Siddharth Public School</span> <br>(Aug. 2019 – June 2021)<br> 
                      </li>
                     
                 </ul>
@@ -72,5 +95,109 @@
         </nav></div></div>
     </div>
  </div>
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Languages </h2>
+            <p>Java, Python<br>C/C++<br>SQL, JavaScript, HTML/CSS</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Libraries </h2>
+            <p>Pandas, NumPy, Matplotlib,<br>Tensorflow, OpenCV-python,<br>Keras.</p>
+        </div>
+
+        </div>
+
+
+    </div>
+
+ </div>
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Face Mask Detection</h3>
+                    <p>Can be used in real-time for safety due to the outbreak of COVID-19.<br> • The MobileNet architecture is used which is very efficient making it easier to deploy the model to embedded
+                        systems.<br>• This can be deployed at airports, hospitals, railway stations, and other public places.<br>• Integrated with CCTV and can be applied on live video cameras.</p>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Portfolio Website </h3>
+                    <p>Developed a personal portfolio design.<br>
+                        • Responsive on both PC and Mobile phones.<br>
+                        • Displays skills, experience, services provided, position of authority, and more.<br>
+                        • Attached a Google form to send a response from the website.</p>
+                </div>
+                
+            </div>
+
+    </div>
+
+    </div>
+    
+
+ </div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1: class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> riyasingh.pdf@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9958768316</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/lordmountbatton/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/riya-singh-raen/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Riya_Singh_Resume.pdf" download class="btn btn2">Download Resume</a>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholher="Your Name" required>
+                    <input type="email" name="email" placeholher="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links"); 
+    var tabcontents=document.getElementsByClassName("tab-contents"); 
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+         
+    }
+
+ </script>
 </body>
 </html>
