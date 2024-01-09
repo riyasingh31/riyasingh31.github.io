@@ -15,19 +15,19 @@
                 <img src="Images/logoig.jpg" class="logo">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#header">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#services">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 
                 </ul>
@@ -43,58 +43,55 @@
 
  </div> 
  
-
- <div id="about">
+<div id="about">
     <div class="container">
-       <div id="row">
+        <div class="row">
             <div class="about-col-1">
-                <img src="images/user.png">
+                 <img src="images/user.png" alt="User Image" style="width: 300px; height: 300px;">
             </div>
             <div class="about-col-2">
-              <h1 class="sub-title">About Me</h1>
-                <p>I'm a sophomore at Chandigarh University, learning engineering as a skill. Besides academics, my active participation in college activities has equipped me with exceptional organizational and management skills. 
-                    I'm a highly-skilled, enthusiastic, self-motivated writer. I'm articulate in Article Writing, Website Content Writing, Book Reviews, Blog Writing, newsletters, Product Description, News Writing, and Advertising. 
-                    Through academics and personal projects I’ve honed my python skills, including proficiency in problem solving, libraries and frameworks. During my project I’ve gained a comprehensive knowledge of Pandas, NumPy, Matplotlib, Tensorflow, OpenCV-python, Argparse, Keras. 
-                
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I'm a sophomore at Chandigarh University, learning engineering as a skill. Besides academics, my active participation in college activities has equipped me with exceptional organizational and management skills.
+                    I'm a highly-skilled, enthusiastic, self-motivated writer. I'm articulate in Article Writing, Website Content Writing, Book Reviews, Blog Writing, newsletters, Product Description, News Writing, and Advertising.
+                    Through academics and personal projects, I've honed my python skills, including proficiency in problem-solving, libraries, and frameworks. During my project, I've gained a comprehensive knowledge of Pandas, NumPy, Matplotlib, Tensorflow, OpenCV-python, Argparse, Keras.
                 </p>
                 <div class="tab-titles">
-                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
-                <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Languages</span> <br>Java, Python, C/C++,<br> SQL, JavaScript,<br> HTML/CSS
+                        </li>
+                        <li>
+                            <span>Libraries</span> <br>Pandas, NumPy,<br> Matplotlib, Tensorflow,<br> OpenCV-python, Keras
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiences">
+                    <ul>
+                        <li>
+                            <span>Subject Matter Expert</span> <br>Scorium Learning<br> Brainly.com<br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>Chandigarh University</span> <br>(Aug. 2022 - Present)<br>
+                        </li>
+                        <li>
+                            <span>Siddharth Public School</span> <br>(Aug. 2019 - June 2021)<br>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="tab-contents active-tab" id="skills">
-                <ul>
-                    <li>
-                       <span>Languages</span> <br>Java, Python, C/C++,<br> SQL, JavaScript,<br> HTML/CSS
-                    </li>
-                    <li>
-                        <span>Libraries</span> <br>Pandas, NumPy,<br> Matplotlib, Tensorflow,<br> OpenCV-python, Keras
-                     </li>
-                    
-                </ul>
-            </div>
-            <div class="tab-contents" id="experiences">
-                <ul>
-                    <li>
-                       <span>Subject Matter Expert</span> <br>Scorium Learning<br> Brainly.com<br>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="tab-contents" id="education">
-                <ul>
-                    <li>
-                       <span>Chandigarh University</span> <br>(Aug. 2022 – Present)<br>
-                    </li>
-                    <li>
-                        <span>Siddharth Public School</span> <br>(Aug. 2019 – June 2021)<br> 
-                     </li>
-                    
-                </ul>
-            </div>
-        </nav></div></div>
+        </div>
     </div>
- </div>
+</div>
 
  <div id="services">
     <div class="container">
@@ -150,35 +147,30 @@
 
  </div>
 
-
 <div id="contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
-                <h1: class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i> riyasingh.pdf@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> +91 9958768316</p>
+                <h1 class="sub-title" style="font-size: smaller;">Contact Me</h1>
+                <p style="font-size: smaller;"><i class="fa-solid fa-envelope"></i> riyasingh.pdf@gmail.com</p>
+                <p style="font-size: smaller;"><i class="fa-solid fa-phone"></i> +91 9958768316</p>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/lordmountbatton/"><i class="fa-brands fa-square-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/riya-singh-raen/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-                <a href="Images/Riya_Singh_Resume.pdf" download class="btn btn2">Download Resume</a>
-                
+                <a href="Images/Riya_Singh_Resume.pdf" download class="btn btn2" style="font-size: smaller; display: inline-block; padding: 10px 20px; background-color: #ff0000; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">Download Resume</a>
             </div>
             <div class="contact-right">
                 <form>
-                    <input type="text" name="Name" placeholher="Your Name" required>
-                    <input type="email" name="email" placeholher="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2"></button>
+                    <input type="text" name="Name" placeholder="Your Name" required style="font-size: smaller;">
+                    <input type="email" name="email" placeholder="Your Email" required style="font-size: smaller;">
+                    <textarea name="Message" rows="6" placeholder="Your Message" style="font-size: smaller;"></textarea>
+                    <button type="submit" class="btn btn2" style="font-size: smaller;"></button>
                 </form>
             </div>
         </div>
     </div>
 </div>
-
-
-
 
 
  <script>
